@@ -1,0 +1,49 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa
+id_ed25519
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Raw telemetry and potentially sensitive captures
+*.evtx
+*.etl
+*.pcap
+*.pcapng
+*.dmp
+*.mem
+*.log
+eve.json
+
+# Local databases and operating-system files
+*.sqlite
+*.sqlite3
+Thumbs.db
+.DS_Store
+# Private or unredacted lab evidence
+evidence/raw/
+evidence/unredacted/
+evidence/private/
+snapshots/raw/
+snapshots/unredacted/
+data/raw/
+data/private/
+
+# Locally generated reports
+reports/generated/
